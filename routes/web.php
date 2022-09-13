@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/sample-counter', function() {
     return view('sample-counter');
 });
+
+Route::get('/sample-contact-form', function() {
+    return view ('sample-contact-form');
+});
